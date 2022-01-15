@@ -139,7 +139,7 @@ browse_btn2.grid(column=2, row=3,sticky=NE, padx=50)
 
 #main button
 main_button_text = StringVar()
-main_button_text.set("Spot The Difference")
+main_button_text.set("Spot It!")
 main_button = Button(r_gui, textvariable=main_button_text,command=compare_images, font=("Ubuntu",12), bg="#02ac00", fg="white", height=1, width=30)
 main_button.grid(column=1, row=7, padx=20)
 
